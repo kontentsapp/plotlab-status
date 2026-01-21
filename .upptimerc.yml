@@ -2,17 +2,17 @@ owner: kontentsapp
 repo: plotlab-status
 
 sites:
-  - name: AI Chat (Gemini)
+  - name: AI System
     url: https://guosxfksrchplhbwzalx.supabase.co/functions/v1/ai-chat
     method: OPTIONS
     expectedStatusCodes: [200, 204]
     
-  - name: AI Image (Imagen)
+  - name: AI Image System
     url: https://guosxfksrchplhbwzalx.supabase.co/functions/v1/ai-image
     method: OPTIONS
     expectedStatusCodes: [200, 204]
 
-  - name: AI Video (Veo)
+  - name: AI Video System
     url: https://guosxfksrchplhbwzalx.supabase.co/functions/v1/ai-video
     method: OPTIONS
     expectedStatusCodes: [200, 204]
