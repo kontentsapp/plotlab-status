@@ -2,34 +2,17 @@ owner: kontentsapp
 repo: plotlab-status
 
 sites:
-  # 핵심 AI 함수 (Staging)
-  - name: Staging - AI Chat (Gemini)
-    url: https://jqvpseavjoteyhmelfau.supabase.co/functions/v1/ai-chat
-    method: OPTIONS
-    expectedStatusCodes: [200, 204]
-    
-  - name: Staging - AI Image (Imagen)
-    url: https://jqvpseavjoteyhmelfau.supabase.co/functions/v1/ai-image
-    method: OPTIONS
-    expectedStatusCodes: [200, 204]
-
-  - name: Staging - AI Video (Veo)
-    url: https://jqvpseavjoteyhmelfau.supabase.co/functions/v1/ai-video
-    method: OPTIONS
-    expectedStatusCodes: [200, 204]
-
-  # 핵심 AI 함수 (Production)
-  - name: Production - AI Chat (Gemini)
+  - name: AI Chat (Gemini)
     url: https://guosxfksrchplhbwzalx.supabase.co/functions/v1/ai-chat
     method: OPTIONS
     expectedStatusCodes: [200, 204]
     
-  - name: Production - AI Image (Imagen)
+  - name: AI Image (Imagen)
     url: https://guosxfksrchplhbwzalx.supabase.co/functions/v1/ai-image
     method: OPTIONS
     expectedStatusCodes: [200, 204]
 
-  - name: Production - AI Video (Veo)
+  - name: AI Video (Veo)
     url: https://guosxfksrchplhbwzalx.supabase.co/functions/v1/ai-video
     method: OPTIONS
     expectedStatusCodes: [200, 204]
