@@ -20,6 +20,9 @@ sites:
 status-website:
   baseUrl: /plotlab-status
   name: PlotLab Status
+  cname:
+  api:
+    enabled: true
   
 workflowSchedule:
   uptime: "*/5 * * * *"
