@@ -18,7 +18,7 @@ sites:
     expectedStatusCodes: [200, 204]
 
 status-website:
-  baseUrl: 
+  baseUrl: ""
   name: PlotLab Status
   cname: status.plotlab.ai
   api:
